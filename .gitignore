@@ -1,0 +1,73 @@
+# Ignorar archivos compilados de Java
+*.class
+*.war
+*.ear
+
+# Ignorar archivos generados por el IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignorar archivos de configuración local
+*.properties
+*.log
+*.prefs
+
+# Ignorar directorios de construcción
+/target/
+/build/
+/out/
+/bin/
+
+# Ignorar dependencias de Maven
+/.mvn/
+/mvnw
+/mvnw.cmd
+/.m2/
+
+# Ignorar dependencias de Gradle
+/.gradle/
+/gradle/
+/gradlew
+/gradlew.bat
+
+# Ignorar archivos de configuración de servidores
+/.settings/
+/.project
+/.classpath
+
+# Ignorar archivos de base de datos
+*.db
+*.sql
+*.h2.db
+
+# Ignorar archivos de logs
+/logs/
+*.log
+
+# Ignorar archivos de Node.js (si usas herramientas frontend)
+/node_modules/
+/npm-debug.log
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de IDE específicos
+.vscode/
+*.suo
+*.user
+*.njsproj
+*.sln
+*.csproj
