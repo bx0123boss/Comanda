@@ -1,0 +1,159 @@
+/* Estilo general */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabecera */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
+    text-align: right;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+/* Menú lateral */
+nav {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #2c3e50;
+    padding-top: 30px;
+    color: #ecf0f1;
+    font-size: 16px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.full-box.dashboard-sideBar-UserInfo {
+    padding-bottom: 20px;
+}
+
+.full-box.dashboard-sideBar-UserInfo figure {
+    margin: 0;
+}
+
+.full-box.dashboard-sideBar-UserInfo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-titles {
+    font-weight: bold;
+}
+
+.dashboard-sideBar-Menu {
+    padding: 0;
+}
+
+.dashboard-sideBar-Menu li {
+    list-style-type: none;
+}
+
+.dashboard-sideBar-Menu li a {
+    display: block;
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.dashboard-sideBar-Menu li a:hover {
+    background-color: #34495e;
+}
+
+.sidebar-item a {
+    padding-left: 30px;
+}
+
+.sidebar-item .sub-menu {
+    display: none;
+    padding-left: 30px;
+    background-color: #34495e;
+}
+
+.sidebar-item .sub-menu li a {
+    padding-left: 45px;
+}
+
+.sidebar-item .show {
+    display: block;
+}
+
+/* Estilo de los iconos */
+.fas {
+    margin-right: 10px;
+}
+
+/* Contenido principal */
+main {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo del botón de cerrar sesión */
+.btn-exit-system {
+    display: block;
+    text-align: center;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-exit-system:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo del submenú */
+.btn-sideBar-SubMenu {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #2c3e50;
+    border: none;
+    width: 80%;
+    text-align: left;
+    color: #ecf0f1;
+    transition: background-color 0.3s;
+}
+
+.btn-sideBar-SubMenu:hover {
+    background-color: #34495e;
+}
+
+/* Resaltar el submenú cuando se despliega */
+.sub-menu a {
+    padding-left: 45px;
+}
+
+/* Hacer que el submenú sea visible cuando está abierto */
+.show {
+    display: block;
+}
