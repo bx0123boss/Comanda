@@ -71,3 +71,4 @@ Thumbs.db
 *.njsproj
 *.sln
 *.csproj
+/dist/

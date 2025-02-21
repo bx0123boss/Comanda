@@ -10,7 +10,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Software de Comandas</title>
+        <title>Jaggersoft</title>
     </head>
 
     <body>
@@ -49,35 +49,35 @@
            <ul class="list-unstyled full-box dashboard-sideBar-Menu">
     <!-- Dashboard -->
     <li class="sidebar-item">
-        <a href="dashboard.jsp">
+        <a href="svtDashboard">
             <i class="fas fa-tachometer-alt"></i> Dashboard
         </a>
     </li>
 
     <!-- Nueva Comanda -->
     <li class="sidebar-item">
-        <a href="svtNuevaComanda">
+        <a href="svtMesas">
             <i class="fas fa-plus-circle"></i> Nueva Comanda
         </a>
     </li>
 
     <!-- Gestionar Comandas -->
     <li class="sidebar-item">
-        <a href="gestionar_comandas.jsp">
+        <a href="svtGestionMesas">
             <i class="fas fa-edit"></i> Gestionar Comandas
         </a>
     </li>
 
     <!-- Pantalla de Pago -->
     <li class="sidebar-item">
-        <a href="pantalla_pago.jsp">
+        <a href="svtPago">
             <i class="fas fa-credit-card"></i> Pantalla de Pago
         </a>
     </li>
 
     <!-- Historial de Comandas -->
     <li class="sidebar-item">
-        <a href="historial_comandas.jsp">
+        <a href="svtHistorico">
             <i class="fas fa-history"></i> Historial de Comandas
         </a>
     </li>
@@ -89,12 +89,12 @@
         </a>
         <ul class="list-unstyled full-box sub-menu">
             <li>
-                <a href="configuracion.jsp">
-                    <i class="fas fa-tools"></i> Configuración
+                <a href="svtAdministracionGrl">
+                    <i class="fas fa-tools"></i> Administracion Productos
                 </a>
             </li>
             <li>
-                <a href="usuarios.jsp">
+                <a href="svtUsuarios">
                     <i class="fas fa-users"></i> Gestión de Usuarios
                 </a>
             </li>
@@ -103,7 +103,7 @@
 
     <!-- Notificaciones -->
     <li class="sidebar-item">
-        <a href="notificaciones.jsp">
+        <a href="svtNotificaciones">
             <i class="fas fa-bell"></i> Notificaciones
         </a>
     </li>

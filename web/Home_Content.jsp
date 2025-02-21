@@ -7,7 +7,7 @@
     <!-- Sección de bienvenida mejorada -->
     <section class="welcome-section">
         <div class="welcome-banner">
-            <h2 class="section-title">EEEESSSSSEEEE</h2>
+            <h2 class="section-title"></h2>
             
         </div>
     </section>

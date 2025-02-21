@@ -8,6 +8,42 @@
         <servlet-name>svtNuevaComanda</servlet-name>
         <servlet-class>Controlador.svtNuevaComanda</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>svtMesas</servlet-name>
+        <servlet-class>Controlador.svtMesas</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svtGestionMesas</servlet-name>
+        <servlet-class>Controlador.svtGestionMesas</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svtPantallaPago</servlet-name>
+        <servlet-class>Controlador.svtPantallaPago</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svtPago</servlet-name>
+        <servlet-class>Controlador.svtPago</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svtHistorico</servlet-name>
+        <servlet-class>Controlador.svtHistorico</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svtAdministracionGrl</servlet-name>
+        <servlet-class>Controlador.svtAdministracionGrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svtUsuarios</servlet-name>
+        <servlet-class>Controlador.svtUsuarios</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svtNotificaciones</servlet-name>
+        <servlet-class>Controlador.svtNotificaciones</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svtDashboard</servlet-name>
+        <servlet-class>Controlador.svtDashboard</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>svtLogin</servlet-name>
         <url-pattern>/svtLogin</url-pattern>
@@ -15,6 +51,42 @@
     <servlet-mapping>
         <servlet-name>svtNuevaComanda</servlet-name>
         <url-pattern>/svtNuevaComanda</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svtMesas</servlet-name>
+        <url-pattern>/svtMesas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svtGestionMesas</servlet-name>
+        <url-pattern>/svtGestionMesas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svtPantallaPago</servlet-name>
+        <url-pattern>/svtPantallaPago</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svtPago</servlet-name>
+        <url-pattern>/svtPago</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svtHistorico</servlet-name>
+        <url-pattern>/svtHistorico</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svtAdministracionGrl</servlet-name>
+        <url-pattern>/svtAdministracionGrl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svtUsuarios</servlet-name>
+        <url-pattern>/svtUsuarios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svtNotificaciones</servlet-name>
+        <url-pattern>/svtNotificaciones</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svtDashboard</servlet-name>
+        <url-pattern>/svtDashboard</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
